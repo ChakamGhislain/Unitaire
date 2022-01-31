@@ -9,8 +9,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: composer install
-      - run:  composer require
-      - run: composer exec phpunit MathTest.php
+      - run: composer init
+ 
  
 
