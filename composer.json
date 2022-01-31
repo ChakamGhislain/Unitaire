@@ -1,0 +1,20 @@
+{
+    "name": "chapitou/tuto",
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "ChakamGhislain",
+            "email": "ghislain.chakam@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Chapitou\\" : "src/"
+        }
+    },
+
+    "require": {}
+}
