@@ -9,7 +9,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: ./vendor/bin/MathTest.php
+      - run: composer init
+      - run: ./vendor/bin/phpunit
  
  
 
